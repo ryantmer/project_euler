@@ -1,7 +1,7 @@
 project_euler
 =============
 
-Solutions for Project Euler questions in Python. Please note the following:
+Solutions for Project Euler (https://projecteuler.net/about) questions in Python. Please note the following:
 
 1) These solutions are not optimal. I am certain that most, if not all, have better implementations.
 
