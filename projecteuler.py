@@ -35,4 +35,8 @@ def proper_divisors(number):
     div = reduce(list.__add__, div_pairs)
     div.remove(number)
     return set(div)
+
+def is_coprime(n1, n2):
+    """Returns True if n1 is coprime to n2, i.e. their largest common factor is 1."""
+    return set(find_divisors(n1)).intersection(set(find_divisors(n2))) == set([1])
 ##### Helper functions #####
